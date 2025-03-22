@@ -1,6 +1,6 @@
 # SRK Equation of State Calculator
 
-The Soave-Redlich-Kwong (SRK) equation of state is a thermodynamic model used to predict the behavior of gases and liquids. This program has an interactive command-line interface and handles phase transitions using cubic equation solving. Users can input any two parameters such as temperature (K), pressure (bar), or molar volume (L/mol) to calculate the third parameter. This helps engineers and scientists understand how substances behave under specific conditions and predict phase behavior in chemical processes.
+The Soave-Redlich-Kwong (SRK) equation of state is a thermodynamic model used to predict the behavior of gases and liquids. This program has an interactive command-line interface and handles phase transitions using cubic equation solving. Users can input any two parameters such as temperature (K), pressure (bar), or molar volume (L/mol) to calculate an unknown third parameter. This helps engineers and scientists understand how substances behave under specific conditions in chemical processes.
 
 ## Requirements
 - C++ compiler (g++, clang++)
