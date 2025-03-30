@@ -2,14 +2,13 @@
 
 The Soave-Redlich-Kwong (SRK) equation of state is a thermodynamic model used to predict the behavior of gases and liquids. This program has an interactive command-line interface and handles phase transitions using cubic equation solving. Users can input any two parameters such as temperature (K), pressure (bar), or molar volume (L/mol) to calculate an unknown third parameter. This helps engineers and scientists understand how substances behave under specific conditions in chemical processes.
 
-## Requirements
+## Prerequisites
 - C++ compiler (g++, clang++)
-- Standard C++ libraries
-- Build tools (make) - optional but recommended
+- Build automation tools (make) - optional but recommended
 
 <br>
 
-## Sample Execution Instructions Using g++ on Windows Subsystem for Linux
+## Running Instructions
 
 ### 1. Navigate to the project directory
 ```sh
@@ -20,7 +19,7 @@ cd [project-directory]
 ```sh
 ls -la
    ```
-You should see: main.cpp, chemicals.cpp, chemicals.h, srk_solver.cpp, srk_solver.h, and (optionally) Makefile
+You should see: main.cpp, chemicals.cpp, chemicals.h, srk_solver.cpp, srk_solver.h, and Makefile
 
 ### 3. Install required build tools (if not already installed)
 ```sh
