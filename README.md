@@ -4,7 +4,7 @@ The Soave-Redlich-Kwong (SRK) equation of state is a thermodynamic model used to
 
 ## Prerequisites
 - C++ compiler (g++, clang++)
-- Build automation tools (make) - optional but recommended
+- Build automation tools (make) — optional
 
 <br>
 
